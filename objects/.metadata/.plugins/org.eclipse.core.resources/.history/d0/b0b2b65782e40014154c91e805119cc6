@@ -1,0 +1,18 @@
+#include "../util/util.h"
+
+class complex {
+public:
+	complex(int a, int b);
+	~complex();
+	complex(const complex& c);
+	void setxy(int a, int b);
+	complex& operator=(const complex& rhs);
+	friend ostream& operator<<(ostream& o, complex& c);
+private:
+	void _copy(const complex& from);
+	void _release();
+	void _setname(int a, int b);
+	int _real;
+	int _imaginary;
+	char* _name;
+};

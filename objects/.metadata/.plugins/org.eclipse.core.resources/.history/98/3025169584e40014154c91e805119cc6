@@ -1,0 +1,92 @@
+/*
+ * truthtable.cpp
+ *
+ *  Created on: Apr 15, 2015
+ *      Author: sinan
+ */
+
+#include "complex.h"
+
+
+complex::complex(int a, int b) : _real(a), _imaginary(b), _name(NULL) {
+	_setname(a,b);
+	cout << _name;
+}
+complex::complex(const complex& c){
+	_copy(c);
+}
+complex& complex::operator=(const complex& rhs){
+	if(this!= &rhs){
+		_release();
+		_copy(rhs);
+	}
+	return *this;
+}
+ostream& operator<<(ostream& o, const complex& c){
+	 o << c._name << endl ;
+	 return o;
+}
+bool operator==(const complex&c1, const complex&c2){
+	if(c1._real == c2._real && c1._imaginary == c2._imaginary){
+		return true;
+	}
+	return false;
+}
+complex::~complex(){
+	delete[] _name;
+}
+void complex::_copy(const complex& from){
+	int l = strlen(from._name)+1;
+	_name = new char[l];
+	strcpy(_name,from._name);
+}
+void complex::_release(){
+	delete[] _name;
+}
+void complex::_setname(int a, int b){
+
+	//calculate the length of name
+	int digitsa = 0;
+	int counta = a;
+	while (counta) {
+		counta /= 10;
+		digitsa++;
+	}
+	int countb = b;
+	int digitsb = 0;
+	while (countb) {
+		countb /= 10;
+		digitsb++;
+	}
+	int lengthofname = 1+digitsa+1+1+digitsb;
+	_name = new char[lengthofname+1];
+
+	//put the characters one by one into name array
+
+	if (a<0){
+		a = -a;
+		_name[0]='-';
+	}else{
+		_name[0]='+';
+	}
+	for (int i=digitsa; i>=1; i--){
+		_name[i]=a%10 + '0';
+		a=a/10;
+	}
+	if (b<0){
+		b = -b;
+		_name[digitsa+1]='-';
+	}else{
+		_name[digitsa+1]='+';
+	}
+	_name[digitsa+2]='i';
+	for (int i=lengthofname-1; i>digitsa+2; i--){
+		_name[i]=b%10 + '0';
+		b=b/10;
+	}
+}
+void complex::setxy(int a, int b) {
+	_setname(a,b);
+	_real = a;
+	_imaginary = b;
+}

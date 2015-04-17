@@ -1,0 +1,9 @@
+#include "../util/util.h"
+
+class complex {
+public:
+	complex(int a, int b);
+	void setxy(int a, int b);
+private:
+
+};
