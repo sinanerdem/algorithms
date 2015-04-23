@@ -1,9 +1,0 @@
-#include "../util/util.h"
-
-class complex {
-public:
-	complex(int a, int b);
-	setxy(int a, int b);
-private:
-
-};

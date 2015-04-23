@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;complex/truthtable.cpp&apos; to &apos;complex.cpp&apos;" description="Rename resource &apos;truthtable.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="truthtable.cpp" name="complex.cpp" stamp="1429142458498" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;complex/truthtable.h&apos; to &apos;complex.h&apos;" description="Rename resource &apos;truthtable.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="truthtable.h" name="complex.h" stamp="1429142466215" updateReferences="true"/>
-</session>
