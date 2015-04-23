@@ -1,0 +1,5 @@
+#include "mult150.h"
+
+mult150::mult150(char* a, char* b): _m1(NULL), _m2(NULL){
+	cout << a;
+}

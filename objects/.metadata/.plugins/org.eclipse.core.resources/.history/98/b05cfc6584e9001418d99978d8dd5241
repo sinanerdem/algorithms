@@ -1,0 +1,20 @@
+#include "mult150.h"
+
+mult150::mult150(char* a, char* b): _m1(NULL), _m2(NULL){
+	int lena = strlen(a);
+	_m1 = new int[lena];
+	for(int i=0;i<lenb;i++){
+		_m1[i] = a[i]-'0';
+	}
+	int lenb = strlen(b);
+	_m2 = new int[lenb];
+	for(int i=0;i<lenb;i++){
+		_m2[i] = b[i]-'0';
+	}
+	int x = _m1[0]+_m2[0];
+	cout << x << endl;
+}
+mult150::~mult150(){
+	delete[] _m1;
+	delete[] _m2;
+}

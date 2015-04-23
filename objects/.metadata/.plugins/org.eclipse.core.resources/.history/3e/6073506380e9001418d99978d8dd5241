@@ -1,0 +1,8 @@
+#include "../util/util.h"
+
+class mult150 {
+public:
+	mult150(char* a, char*b);
+	bool display;
+private:
+};
