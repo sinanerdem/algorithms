@@ -1,0 +1,8 @@
+#include "fakegold70.h"
+
+
+fakegold70::fakegold70(){
+	for(int i=1 ; i<=70 ; i++){
+
+	}
+}

@@ -1,0 +1,6 @@
+#include "fakegold70.h"
+
+
+fakegold70::fakegold70(){
+
+}

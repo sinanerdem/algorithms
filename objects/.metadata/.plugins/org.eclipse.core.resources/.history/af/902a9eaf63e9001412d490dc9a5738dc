@@ -1,0 +1,44 @@
+#include "fakegold70.h"
+
+
+fakegold70::fakegold70(): _SIZE(70){
+//	for(int i=1 ; i<=70 ; i++){
+//		_createArray(i);
+//		_findFake();
+//		_deleteArray();
+//	}
+			_createArray(5);
+			_findFake();
+			_deleteArray();
+}
+void fakegold70::_createArray(int a){
+	_coinsArr = new int[71]();
+	_coinsArr[a] = 1;
+}
+
+void fakegold70::_deleteArray(){
+	delete[] _coinsArr;
+}
+void fakegold70::_findFake(){
+	int x = _divideAndCompare(1, _SIZE);
+	cout << x;
+}
+int fakegold70::_divideAndCompare(int min, int max){
+	int firstHalfSum = 0;
+	int secondHalfSum = 0;
+	int mid = min + (max-min)/2;
+	int twomid = 2*mid;
+	for (int i=min ; i<=mid ; i++){
+		firstHalfSum += _coinsArr[i];
+	}
+	for (int i=mid+1 ; i<=twomid ; i++){
+		secondHalfSum += _coinsArr[i];
+	}
+	if (firstHalfSum>secondHalfSum){
+		_divideAndCompare(min,mid);
+	} else if (firstHalfSum<secondHalfSum){
+		_divideAndCompare(mid+1,max);
+	} else{
+		return max;
+	}
+}

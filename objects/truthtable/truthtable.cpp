@@ -86,4 +86,14 @@ truthtable::truthtable(int x) {
 111110
 111111
 Run time for truthtable for n = 6 is 0.000299 secs
+--------------
+Run time for truthtable for n = 10 is 0.006416 secs
+--------------
+Run time for truthtable for n = 16 is 0.521954 secs
+--------------
+Run time for truthtable for n = 20 is 9.56927 secs
+--------------
+Run time for truthtable for n = 30 is 9352.544 secs
+--------------
+For n = 30 and higher, program cannot finish in reasonable time.
 */

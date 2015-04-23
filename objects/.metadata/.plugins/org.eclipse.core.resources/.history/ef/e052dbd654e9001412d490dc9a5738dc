@@ -1,0 +1,15 @@
+#include "../util/util.h"
+
+class fakegold70 {
+public:
+	fakegold70();
+	~fakegold70();
+
+private:
+	void _createArray(int a);
+	void _deleteArray();
+	void _findFake();
+	int _divideAndCompare(int min, int max);
+	int _SIZE = 70;
+	int* _coinsArr;
+};

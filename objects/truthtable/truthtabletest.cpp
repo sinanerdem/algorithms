@@ -2,7 +2,7 @@
 #include "truthtable.h"
 
 int main() {
-int n = 6;
+int n = 22;
 clock_t start = clock();
 truthtable a(n);
 clock_t end = clock();

@@ -6995,3 +6995,2811 @@ Finished building target: complex
 18:12:13 **** Incremental Build of configuration Debug for project complex ****
 make all 
 make: Nothing to be done for `all'.
+20:08:36 **** Incremental Build of configuration Debug for project complex ****
+make all 
+Building file: ../complex.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -pg -Wall -c -fmessage-length=0 -MMD -MP -MF"complex.d" -MT"complex.d" -o "complex.o" "../complex.cpp"
+In file included from ../complex.cpp:8:
+In file included from ../complex.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../complex.cpp
+ 
+Building target: complex
+Invoking: MacOS X C++ Linker
+g++  -o "complex"  ./complex.o ./complextest.o   
+Finished building target: complex
+ 
+20:09:14 **** Incremental Build of configuration Debug for project complex ****
+make all 
+Building file: ../complex.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -pg -Wall -c -fmessage-length=0 -MMD -MP -MF"complex.d" -MT"complex.d" -o "complex.o" "../complex.cpp"
+In file included from ../complex.cpp:8:
+In file included from ../complex.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../complex.cpp:16:7: warning: use of NULL in arithmetic operation [-Wnull-arithmetic]
+        _name*(NULL);
+             ^~~~~~~
+../complex.cpp:16:7: error: invalid operands to binary expression ('char *' and 'long')
+        _name*(NULL);
+        ~~~~~^~~~~~~
+5 warnings and 1 error generated.
+make: *** [complex.o] Error 1
+20:10:30 **** Incremental Build of configuration Debug for project complex ****
+make all 
+Building file: ../complex.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -pg -Wall -c -fmessage-length=0 -MMD -MP -MF"complex.d" -MT"complex.d" -o "complex.o" "../complex.cpp"
+In file included from ../complex.cpp:8:
+In file included from ../complex.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../complex.cpp
+ 
+Building target: complex
+Invoking: MacOS X C++ Linker
+g++  -o "complex"  ./complex.o ./complextest.o   
+Finished building target: complex
+ 
+20:11:55 **** Incremental Build of configuration Debug for project complex ****
+make all 
+make: Nothing to be done for `all'.
+14:37:46 **** Incremental Build of configuration Debug for project truthtable ****
+make all 
+Building file: ../truthtabletest.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"truthtabletest.d" -MT"truthtabletest.d" -o "truthtabletest.o" "../truthtabletest.cpp"
+In file included from ../truthtabletest.cpp:2:
+In file included from ../truthtable.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../truthtabletest.cpp
+ 
+Building target: truthtable
+Invoking: MacOS X C++ Linker
+g++  -o "truthtable"  ./truthtable.o ./truthtabletest.o   
+Finished building target: truthtable
+ 
+14:38:24 **** Incremental Build of configuration Debug for project truthtable ****
+make all 
+Building file: ../truthtable.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"truthtable.d" -MT"truthtable.d" -o "truthtable.o" "../truthtable.cpp"
+In file included from ../truthtable.cpp:8:
+In file included from ../truthtable.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../truthtable.cpp
+ 
+Building file: ../truthtabletest.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"truthtabletest.d" -MT"truthtabletest.d" -o "truthtabletest.o" "../truthtabletest.cpp"
+In file included from ../truthtabletest.cpp:2:
+In file included from ../truthtable.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../truthtabletest.cpp
+ 
+Building target: truthtable
+Invoking: MacOS X C++ Linker
+g++  -o "truthtable"  ./truthtable.o ./truthtabletest.o   
+Finished building target: truthtable
+ 
+14:38:58 **** Incremental Build of configuration Debug for project truthtable ****
+make all 
+Building file: ../truthtable.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"truthtable.d" -MT"truthtable.d" -o "truthtable.o" "../truthtable.cpp"
+In file included from ../truthtable.cpp:8:
+In file included from ../truthtable.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../truthtable.cpp
+ 
+Building file: ../truthtabletest.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"truthtabletest.d" -MT"truthtabletest.d" -o "truthtabletest.o" "../truthtabletest.cpp"
+In file included from ../truthtabletest.cpp:2:
+In file included from ../truthtable.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../truthtabletest.cpp
+ 
+Building target: truthtable
+Invoking: MacOS X C++ Linker
+g++  -o "truthtable"  ./truthtable.o ./truthtabletest.o   
+Finished building target: truthtable
+ 
+14:49:29 **** Incremental Build of configuration Debug for project truthtable ****
+make all 
+Building file: ../truthtable.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"truthtable.d" -MT"truthtable.d" -o "truthtable.o" "../truthtable.cpp"
+In file included from ../truthtable.cpp:8:
+In file included from ../truthtable.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../truthtable.cpp
+ 
+Building file: ../truthtabletest.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"truthtabletest.d" -MT"truthtabletest.d" -o "truthtabletest.o" "../truthtabletest.cpp"
+In file included from ../truthtabletest.cpp:2:
+In file included from ../truthtable.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../truthtabletest.cpp
+ 
+Building target: truthtable
+Invoking: MacOS X C++ Linker
+g++  -o "truthtable"  ./truthtable.o ./truthtabletest.o   
+Finished building target: truthtable
+ 
+17:51:49 **** Incremental Build of configuration Debug for project complex ****
+make all 
+make: Nothing to be done for `all'.
+17:51:51 **** Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+In file included from ../fakegold70.cpp:1:
+../fakegold70.h:9:19: error: extra qualification on member '_createArray'
+        void fakegold70::_createArray(int a);
+             ~~~~~~~~~~~~^
+../fakegold70.h:10:19: error: extra qualification on member '_deleteArray'
+        void fakegold70::_deleteArray();
+             ~~~~~~~~~~~~^
+../fakegold70.h:11:19: error: extra qualification on member '_findFake'
+        void fakegold70::_findFake();
+             ~~~~~~~~~~~~^
+../fakegold70.h:12:18: error: extra qualification on member '_divideAndCompare'
+        int fakegold70::_divideAndCompare(int min, int max);
+            ~~~~~~~~~~~~^
+../fakegold70.h:13:12: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        int _SIZE = 70;
+                  ^
+../fakegold70.cpp:16:14: error: expected expression
+        _coinsArr = {0};
+                    ^
+5 warnings and 5 errors generated.
+make: *** [fakegold70.o] Error 1
+17:51:52 **** Incremental Build of configuration Debug for project truthtable ****
+make all 
+Building file: ../truthtable.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"truthtable.d" -MT"truthtable.d" -o "truthtable.o" "../truthtable.cpp"
+In file included from ../truthtable.cpp:8:
+In file included from ../truthtable.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../truthtable.cpp
+ 
+Building target: truthtable
+Invoking: MacOS X C++ Linker
+g++  -o "truthtable"  ./truthtable.o ./truthtabletest.o   
+Finished building target: truthtable
+ 
+17:51:53 **** Incremental Build of configuration Debug for project util ****
+make all 
+make: Nothing to be done for `all'.
+17:52:54 **** Incremental Build of configuration Debug for project complex ****
+make all 
+make: Nothing to be done for `all'.
+17:52:55 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+In file included from ../fakegold70.cpp:1:
+../fakegold70.h:9:19: error: extra qualification on member '_createArray'
+        void fakegold70::_createArray(int a);
+             ~~~~~~~~~~~~^
+../fakegold70.h:10:19: error: extra qualification on member '_deleteArray'
+        void fakegold70::_deleteArray();
+             ~~~~~~~~~~~~^
+../fakegold70.h:11:19: error: extra qualification on member '_findFake'
+        void fakegold70::_findFake();
+             ~~~~~~~~~~~~^
+../fakegold70.h:12:18: error: extra qualification on member '_divideAndCompare'
+        int fakegold70::_divideAndCompare(int min, int max);
+            ~~~~~~~~~~~~^
+../fakegold70.h:13:12: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        int _SIZE = 70;
+                  ^
+../fakegold70.cpp:16:12: error: expected expression
+        _coinsArr[] = {0};
+                  ^
+../fakegold70.cpp:16:16: error: expected expression
+        _coinsArr[] = {0};
+                      ^
+5 warnings and 6 errors generated.
+make: *** [fakegold70.o] Error 1
+17:52:55 **** Incremental Build of configuration Debug for project truthtable ****
+make all 
+make: Nothing to be done for `all'.
+17:52:55 **** Incremental Build of configuration Debug for project util ****
+make all 
+make: Nothing to be done for `all'.
+17:55:43 **** Incremental Build of configuration Debug for project complex ****
+make all 
+make: Nothing to be done for `all'.
+17:55:44 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+In file included from ../fakegold70.cpp:1:
+../fakegold70.h:9:19: error: extra qualification on member '_createArray'
+        void fakegold70::_createArray(int a);
+             ~~~~~~~~~~~~^
+../fakegold70.h:10:19: error: extra qualification on member '_deleteArray'
+        void fakegold70::_deleteArray();
+             ~~~~~~~~~~~~^
+../fakegold70.h:11:19: error: extra qualification on member '_findFake'
+        void fakegold70::_findFake();
+             ~~~~~~~~~~~~^
+../fakegold70.h:12:18: error: extra qualification on member '_divideAndCompare'
+        int fakegold70::_divideAndCompare(int min, int max);
+            ~~~~~~~~~~~~^
+../fakegold70.h:13:12: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        int _SIZE = 70;
+                  ^
+../fakegold70.cpp:15:12: error: expected expression
+        _coinsArr[] = {0};
+                  ^
+../fakegold70.cpp:15:16: error: expected expression
+        _coinsArr[] = {0};
+                      ^
+../fakegold70.cpp:20:2: error: cannot delete expression of type 'int [71]'
+        delete[] _coinsArr;
+        ^        ~~~~~~~~~
+5 warnings and 7 errors generated.
+make: *** [fakegold70.o] Error 1
+17:55:44 **** Incremental Build of configuration Debug for project truthtable ****
+make all 
+make: Nothing to be done for `all'.
+17:55:44 **** Incremental Build of configuration Debug for project util ****
+make all 
+make: Nothing to be done for `all'.
+17:59:40 **** Incremental Build of configuration Debug for project complex ****
+make all 
+make: Nothing to be done for `all'.
+17:59:40 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+In file included from ../fakegold70.cpp:1:
+../fakegold70.h:9:19: error: extra qualification on member '_createArray'
+        void fakegold70::_createArray(int a);
+             ~~~~~~~~~~~~^
+../fakegold70.h:10:19: error: extra qualification on member '_deleteArray'
+        void fakegold70::_deleteArray();
+             ~~~~~~~~~~~~^
+../fakegold70.h:11:19: error: extra qualification on member '_findFake'
+        void fakegold70::_findFake();
+             ~~~~~~~~~~~~^
+../fakegold70.h:12:18: error: extra qualification on member '_divideAndCompare'
+        int fakegold70::_divideAndCompare(int min, int max);
+            ~~~~~~~~~~~~^
+../fakegold70.h:13:12: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        int _SIZE = 70;
+                  ^
+../fakegold70.cpp:10:17: error: use of undeclared identifier 'i'
+                        _createArray(i);
+                                     ^
+../fakegold70.cpp:16:14: error: expected expression
+        _coinsArr = {0};
+                    ^
+5 warnings and 6 errors generated.
+make: *** [fakegold70.o] Error 1
+17:59:40 **** Incremental Build of configuration Debug for project truthtable ****
+make all 
+make: Nothing to be done for `all'.
+17:59:41 **** Incremental Build of configuration Debug for project util ****
+make all 
+make: Nothing to be done for `all'.
+18:03:29 **** Incremental Build of configuration Debug for project complex ****
+make all 
+make: Nothing to be done for `all'.
+18:03:29 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+In file included from ../fakegold70.cpp:1:
+../fakegold70.h:9:19: error: extra qualification on member '_createArray'
+        void fakegold70::_createArray(int a);
+             ~~~~~~~~~~~~^
+../fakegold70.h:10:19: error: extra qualification on member '_deleteArray'
+        void fakegold70::_deleteArray();
+             ~~~~~~~~~~~~^
+../fakegold70.h:11:19: error: extra qualification on member '_findFake'
+        void fakegold70::_findFake();
+             ~~~~~~~~~~~~^
+../fakegold70.h:12:18: error: extra qualification on member '_divideAndCompare'
+        int fakegold70::_divideAndCompare(int min, int max);
+            ~~~~~~~~~~~~^
+../fakegold70.h:13:12: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        int _SIZE = 70;
+                  ^
+5 warnings and 4 errors generated.
+make: *** [fakegold70.o] Error 1
+18:03:30 **** Incremental Build of configuration Debug for project truthtable ****
+make all 
+make: Nothing to be done for `all'.
+18:03:30 **** Incremental Build of configuration Debug for project util ****
+make all 
+make: Nothing to be done for `all'.
+18:04:37 **** Incremental Build of configuration Debug for project complex ****
+make all 
+make: Nothing to be done for `all'.
+18:04:37 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+In file included from ../fakegold70.cpp:1:
+../fakegold70.h:13:12: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        int _SIZE = 70;
+                  ^
+../fakegold70.cpp:44:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+6 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building file: ../fakegold70test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70test.d" -MT"fakegold70test.d" -o "fakegold70test.o" "../fakegold70test.cpp"
+In file included from ../fakegold70test.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+In file included from ../fakegold70test.cpp:1:
+../fakegold70.h:13:12: warning: in-class initialization of non-static data member is a C++11 extension [-Wc++11-extensions]
+        int _SIZE = 70;
+                  ^
+5 warnings generated.
+Finished building: ../fakegold70test.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Undefined symbols for architecture x86_64:
+  "fakegold70::~fakegold70()", referenced from:
+      _main in fakegold70test.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [fakegold70] Error 1
+18:04:38 **** Incremental Build of configuration Debug for project truthtable ****
+make all 
+make: Nothing to be done for `all'.
+18:04:38 **** Incremental Build of configuration Debug for project util ****
+make all 
+make: Nothing to be done for `all'.
+18:06:24 **** Incremental Build of configuration Debug for project complex ****
+make all 
+make: Nothing to be done for `all'.
+18:06:24 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:44:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building file: ../fakegold70test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70test.d" -MT"fakegold70test.d" -o "fakegold70test.o" "../fakegold70test.cpp"
+In file included from ../fakegold70test.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../fakegold70test.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Undefined symbols for architecture x86_64:
+  "fakegold70::~fakegold70()", referenced from:
+      _main in fakegold70test.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [fakegold70] Error 1
+18:06:25 **** Incremental Build of configuration Debug for project truthtable ****
+make all 
+make: Nothing to be done for `all'.
+18:06:25 **** Incremental Build of configuration Debug for project util ****
+make all 
+make: Nothing to be done for `all'.
+18:07:10 **** Incremental Build of configuration Debug for project complex ****
+make all 
+make: Nothing to be done for `all'.
+18:07:10 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Undefined symbols for architecture x86_64:
+  "fakegold70::~fakegold70()", referenced from:
+      _main in fakegold70test.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [fakegold70] Error 1
+18:07:10 **** Incremental Build of configuration Debug for project truthtable ****
+make all 
+make: Nothing to be done for `all'.
+18:07:10 **** Incremental Build of configuration Debug for project util ****
+make all 
+make: Nothing to be done for `all'.
+18:08:09 **** Incremental Build of configuration Debug for project complex ****
+make all 
+make: Nothing to be done for `all'.
+18:08:09 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:44:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building file: ../fakegold70test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70test.d" -MT"fakegold70test.d" -o "fakegold70test.o" "../fakegold70test.cpp"
+In file included from ../fakegold70test.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../fakegold70test.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+18:08:10 **** Incremental Build of configuration Debug for project truthtable ****
+make all 
+make: Nothing to be done for `all'.
+18:08:10 **** Incremental Build of configuration Debug for project util ****
+make all 
+make: Nothing to be done for `all'.
+18:08:19 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+18:09:05 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+18:10:42 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+18:12:32 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+18:15:22 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:44:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+18:15:30 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+18:15:38 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+18:17:01 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:44:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+18:17:06 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+18:23:19 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:44:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+18:23:34 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+18:24:46 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:44:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+18:24:52 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+18:24:59 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+19:51:52 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:46:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+19:52:06 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+19:52:09 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+19:52:10 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+19:52:55 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+19:54:49 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:46:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:01:23 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:46:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:01:52 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+20:01:55 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+20:03:11 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:46:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:03:16 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+20:03:46 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:46:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:03:52 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+20:12:22 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:49:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:13:10 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:49:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:14:28 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+20:20:37 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:50:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:22:51 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+20:25:43 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:51:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:27:54 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:52:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:33:47 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:52:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:34:01 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:52:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:35:55 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:36:26 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:36:38 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:36:46 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:36:56 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:40:02 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building file: ../fakegold70test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70test.d" -MT"fakegold70test.d" -o "fakegold70test.o" "../fakegold70test.cpp"
+In file included from ../fakegold70test.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../fakegold70test.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:40:41 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:41:53 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:42:30 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:22:6: warning: unused variable 'x' [-Wunused-variable]
+        int x = _divideAndCompare(1, _SIZE);
+            ^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:46:08 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:22:6: warning: unused variable 'x' [-Wunused-variable]
+        int x = _divideAndCompare(1, _SIZE);
+            ^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:59:09 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:23:6: warning: unused variable 'x' [-Wunused-variable]
+        int x = _divideAndCompare(1, _SIZE);
+            ^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+20:59:45 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+21:03:29 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:27:6: warning: unused variable 'x' [-Wunused-variable]
+        int x = _divideAndCompare(1, _SIZE);
+            ^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building file: ../fakegold70test.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70test.d" -MT"fakegold70test.d" -o "fakegold70test.o" "../fakegold70test.cpp"
+In file included from ../fakegold70test.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../fakegold70test.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+21:04:50 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+21:05:48 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:27:6: warning: unused variable 'x' [-Wunused-variable]
+        int x = _divideAndCompare(1, _SIZE);
+            ^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 
+21:06:00 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+make: Nothing to be done for `all'.
+21:06:26 **** Incremental Build of configuration Debug for project fakegold70 ****
+make all 
+Building file: ../fakegold70.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"fakegold70.d" -MT"fakegold70.d" -o "fakegold70.o" "../fakegold70.cpp"
+In file included from ../fakegold70.cpp:1:
+In file included from ../fakegold70.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+../fakegold70.cpp:28:6: warning: unused variable 'x' [-Wunused-variable]
+        int x = _divideAndCompare(1, _SIZE);
+            ^
+5 warnings generated.
+Finished building: ../fakegold70.cpp
+ 
+Building target: fakegold70
+Invoking: MacOS X C++ Linker
+g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o   
+Finished building target: fakegold70
+ 

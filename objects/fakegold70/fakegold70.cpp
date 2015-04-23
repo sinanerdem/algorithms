@@ -1,0 +1,59 @@
+#include "fakegold70.h"
+
+
+fakegold70::fakegold70(): _SIZE(70), _numberOfWeighings(0), _minNumberOfWeighings(1), _maxNumberOfWeighings(1){
+	for(int i=1 ; i<=70 ; i++){
+		_createArray(i);
+		cout << "Fake coin is in slot: " << i << endl;
+		_findFake();
+		cout << "Number of weighings: " << _numberOfWeighings << endl;
+		if (_numberOfWeighings < _minNumberOfWeighings) {_minNumberOfWeighings=_numberOfWeighings;}
+		if (_numberOfWeighings > _maxNumberOfWeighings) {_maxNumberOfWeighings=_numberOfWeighings;}
+		_numberOfWeighings=0;
+		_deleteArray();
+	}
+	cout << "---------------------------------" << endl;
+	cout << "Minimum number of weighings: " << _minNumberOfWeighings << endl;
+	cout << "Maximum number of weighings: " << _maxNumberOfWeighings << endl;
+}
+void fakegold70::_createArray(int a){
+	_coinsArr = new int[71]();
+	_coinsArr[a] = 1;
+}
+
+void fakegold70::_deleteArray(){
+	delete[] _coinsArr;
+}
+void fakegold70::_findFake(){
+	int x = _divideAndCompare(1, _SIZE);
+}
+int fakegold70::_divideAndCompare(int min, int max){
+	int result = 0;
+	int firstHalfSum = 0;
+	int secondHalfSum = 0;
+	int noOfCoins = max - min + 1;
+	if (noOfCoins == 2){
+		cout << "Weighing " << min << " and " << max << endl;
+		_numberOfWeighings++;
+		return (_coinsArr[min]>_coinsArr[max]) ? min : max;
+	}
+	int count = noOfCoins / 2;
+	int mid = min + count - 1;
+	int end = mid + count;
+	for (int i=min ; i<=mid ; i++){
+		firstHalfSum += _coinsArr[i];
+	}
+	for (int i=mid+1 ; i<=end ; i++){
+		secondHalfSum += _coinsArr[i];
+	}
+	cout << "Weighing " << min << "-" << mid << " and " << mid+1 << "-" << end << endl;
+	_numberOfWeighings++;
+	if (firstHalfSum>secondHalfSum){
+		result = _divideAndCompare(min,mid);
+	} else if (firstHalfSum<secondHalfSum){
+		result = _divideAndCompare(mid+1,end);
+	} else{
+		return end + 1;
+	}
+	return result;
+}

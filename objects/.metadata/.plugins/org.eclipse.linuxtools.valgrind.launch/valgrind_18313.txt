@@ -1,0 +1,60 @@
+==18313== Conditional jump or move depends on uninitialised value(s)
+==18313==    at 0x1004E7C3F: _platform_memchr$VARIANT$Haswell (in /usr/lib/system/libsystem_platform.dylib)
+==18313==    by 0x1002DBBB6: __sfvwrite (in /usr/lib/system/libsystem_c.dylib)
+==18313==    by 0x1002DC0CA: fwrite (in /usr/lib/system/libsystem_c.dylib)
+==18313==    by 0x100027D29: std::__1::__stdoutbuf<char>::overflow(int) (in /usr/lib/libc++.1.dylib)
+==18313==    by 0x10001D91C: std::__1::basic_streambuf<char, std::__1::char_traits<char> >::xsputn(char const*, long) (in /usr/lib/libc++.1.dylib)
+==18313==    by 0x100002006: std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x10000159E: std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x100001192: std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::operator<< <std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x100000FE5: operator<<(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, complex const&) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x10000218C: main (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313== 
+==18313== Conditional jump or move depends on uninitialised value(s)
+==18313==    at 0x1004E7C47: _platform_memchr$VARIANT$Haswell (in /usr/lib/system/libsystem_platform.dylib)
+==18313==    by 0x1002DBBB6: __sfvwrite (in /usr/lib/system/libsystem_c.dylib)
+==18313==    by 0x1002DC0CA: fwrite (in /usr/lib/system/libsystem_c.dylib)
+==18313==    by 0x100027D29: std::__1::__stdoutbuf<char>::overflow(int) (in /usr/lib/libc++.1.dylib)
+==18313==    by 0x10001D91C: std::__1::basic_streambuf<char, std::__1::char_traits<char> >::xsputn(char const*, long) (in /usr/lib/libc++.1.dylib)
+==18313==    by 0x100002006: std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> > std::__1::__pad_and_output<char, std::__1::char_traits<char> >(std::__1::ostreambuf_iterator<char, std::__1::char_traits<char> >, char const*, char const*, char const*, std::__1::ios_base&, char) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x10000159E: std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::__put_character_sequence<char, std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*, unsigned long) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x100001192: std::__1::basic_ostream<char, std::__1::char_traits<char> >& std::__1::operator<< <std::__1::char_traits<char> >(std::__1::basic_ostream<char, std::__1::char_traits<char> >&, char const*) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x1000023D9: main (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313== 
+==18313== Invalid read of size 16
+==18313==    at 0x10029E0CF: strcpy (in /usr/lib/system/libsystem_c.dylib)
+==18313==    by 0x100000EC4: complex::_copy(complex const&) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x100000F5C: complex::operator=(complex const&) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x100002688: main (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==  Address 0x10080c4d0 is 0 bytes inside a block of size 8 alloc'd
+==18313==    at 0x10000B50B: malloc (in /usr/local/Cellar/valgrind/HEAD/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==18313==    by 0x10004F43D: operator new(unsigned long) (in /usr/lib/libc++.1.dylib)
+==18313==    by 0x100000BDB: complex::_setname(int, int) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x100000ABF: complex::complex(int, int) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x100000D89: complex::complex(int, int) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x1000022D3: main (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313== 
+==18313== Invalid read of size 16
+==18313==    at 0x10029E0CF: strcpy (in /usr/lib/system/libsystem_c.dylib)
+==18313==    by 0x100000EC4: complex::_copy(complex const&) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x100000F5C: complex::operator=(complex const&) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x1000026A7: main (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==  Address 0x10080c610 is 0 bytes inside a block of size 8 alloc'd
+==18313==    at 0x10000B50B: malloc (in /usr/local/Cellar/valgrind/HEAD/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==18313==    by 0x10004F43D: operator new(unsigned long) (in /usr/lib/libc++.1.dylib)
+==18313==    by 0x100000EAB: complex::_copy(complex const&) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x100000F5C: complex::operator=(complex const&) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x100002688: main (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313== 
+==18313== Invalid read of size 16
+==18313==    at 0x10029E0CF: strcpy (in /usr/lib/system/libsystem_c.dylib)
+==18313==    by 0x100000EC4: complex::_copy(complex const&) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x100000F5C: complex::operator=(complex const&) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x1000026C6: main (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==  Address 0x10080c660 is 0 bytes inside a block of size 8 alloc'd
+==18313==    at 0x10000B50B: malloc (in /usr/local/Cellar/valgrind/HEAD/lib/valgrind/vgpreload_memcheck-amd64-darwin.so)
+==18313==    by 0x10004F43D: operator new(unsigned long) (in /usr/lib/libc++.1.dylib)
+==18313==    by 0x100000EAB: complex::_copy(complex const&) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x100000F5C: complex::operator=(complex const&) (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313==    by 0x1000026A7: main (in /Users/sinan/code/algorithms/objects/complex/Debug/complex)
+==18313== 

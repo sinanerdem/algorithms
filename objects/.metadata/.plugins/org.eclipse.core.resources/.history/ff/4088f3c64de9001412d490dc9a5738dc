@@ -1,0 +1,11 @@
+#include "../util/util.h"
+
+class fakegold70 {
+public:
+	fakegold70();
+	~fakegold70();
+
+private:
+	void fakegold70::createArray(int a);
+	int _SIZE = 70;
+};
