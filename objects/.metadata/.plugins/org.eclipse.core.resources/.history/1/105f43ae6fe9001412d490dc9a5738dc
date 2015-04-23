@@ -1,7 +1,7 @@
 #include "fakegold70.h"
 
 
-fakegold70::fakegold70(): _SIZE(70), _numberOfWeighings(0), _minNumberOfWeighings(70), _maxNumberOfWeighings(1){
+fakegold70::fakegold70(): _SIZE(70), _numberOfWeighings(0), _minNumberOfWeighings(1), _maxNumberOfWeighings(1){
 	for(int i=1 ; i<=70 ; i++){
 		_createArray(i);
 		cout << "Fake coin is in slot: " << i << endl;

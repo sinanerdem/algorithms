@@ -1,4 +1,4 @@
-21:06:26 **** Incremental Build of configuration Debug for project fakegold70 ****
+21:17:41 **** Incremental Build of configuration Debug for project fakegold70 ****
 make all 
 Building file: ../fakegold70.cpp
 Invoking: GCC C++ Compiler
@@ -49,5 +49,5 @@ g++  -o "fakegold70"  ./fakegold70.o ./fakegold70test.o
 Finished building target: fakegold70
  
 
-21:06:26 Build Finished (took 480ms)
+21:17:42 Build Finished (took 1s.55ms)
 
