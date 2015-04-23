@@ -1,6 +1,11 @@
 #include "mult150.h"
 
 mult150::mult150(char* a, char* b): _m1(NULL), _m2(NULL){
+	if (display){
+		cout << "-----------------------------" << endl;
+		cout << "In mult150 constructor" << endl;
+	}
+
 	_result = new char[150];
 	_lena = strlen(a);
 	_m1 = new int[_lena];
@@ -15,8 +20,12 @@ mult150::mult150(char* a, char* b): _m1(NULL), _m2(NULL){
 	_multiply();
 }
 mult150::~mult150(){
+	if (display){
+		cout << "In mult150 destructor" << endl;
+	}
 	delete[] _m1;
 	delete[] _m2;
+	delete[] _result;
 }
 void mult150::_multiply(){
 	int noOfMult = 0;
@@ -33,18 +42,20 @@ void mult150::_multiply(){
 			carrym = x/10;
 			int y = resultInt[150-rcounter] + (x%10) + carrya;
 			noOfAdd++;
+			noOfAdd++;
 			carrya = y/10;
 			resultInt[150-rcounter] = y%10;
 			rcounter++;
 		}
 		resultInt[150-rcounter]+=carrym;
 		resultInt[150-rcounter]+=carrya;
+		noOfAdd++;
+		noOfAdd++;
 		carrym = 0;
 		carrya = 0;
 		kcounter++;
 		rcounter=kcounter;
 	}
-	cout << "-------------------------------" << endl;
 	cout << "Number of Multiplications: " << noOfMult << endl;
 	cout << "Number of Additions: " << noOfAdd << endl;
 

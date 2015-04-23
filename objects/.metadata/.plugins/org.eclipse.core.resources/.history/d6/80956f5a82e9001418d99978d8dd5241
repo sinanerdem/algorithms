@@ -1,7 +1,0 @@
-#include "mult150.h"
-
-mult150::mult150(char* a, char* b): _m1(NULL), _m2(NULL){
-	_m1 = new char[150];
-	strcpy(_m1,a);
-	cout << a;
-}

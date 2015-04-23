@@ -1,4 +1,4 @@
-03:09:00 **** Incremental Build of configuration Debug for project mult150 ****
+13:09:22 **** Incremental Build of configuration Debug for project mult150 ****
 make all 
 Building file: ../mult150.cpp
 Invoking: GCC C++ Compiler
@@ -46,5 +46,5 @@ g++  -o "mult150"  ./mult150.o ./mult150test.o
 Finished building target: mult150
  
 
-03:09:00 Build Finished (took 486ms)
+13:09:22 Build Finished (took 428ms)
 

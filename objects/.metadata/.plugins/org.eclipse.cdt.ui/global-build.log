@@ -3440,3 +3440,197 @@ Invoking: MacOS X C++ Linker
 g++  -o "mult150"  ./mult150.o ./mult150test.o   
 Finished building target: mult150
  
+13:05:26 **** Incremental Build of configuration Debug for project mult150 ****
+make all 
+make: Nothing to be done for `all'.
+13:06:09 **** Incremental Build of configuration Debug for project mult150 ****
+make all 
+Building file: ../mult150.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mult150.d" -MT"mult150.d" -o "mult150.o" "../mult150.cpp"
+In file included from ../mult150.cpp:1:
+In file included from ../mult150.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../mult150.cpp
+ 
+Building target: mult150
+Invoking: MacOS X C++ Linker
+g++  -o "mult150"  ./mult150.o ./mult150test.o   
+Finished building target: mult150
+ 
+13:06:19 **** Incremental Build of configuration Debug for project mult150 ****
+make all 
+make: Nothing to be done for `all'.
+13:07:36 **** Incremental Build of configuration Debug for project mult150 ****
+make all 
+Building file: ../mult150.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mult150.d" -MT"mult150.d" -o "mult150.o" "../mult150.cpp"
+In file included from ../mult150.cpp:1:
+In file included from ../mult150.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../mult150.cpp
+ 
+Building target: mult150
+Invoking: MacOS X C++ Linker
+g++  -o "mult150"  ./mult150.o ./mult150test.o   
+Finished building target: mult150
+ 
+13:08:52 **** Incremental Build of configuration Debug for project mult150 ****
+make all 
+Building file: ../mult150.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mult150.d" -MT"mult150.d" -o "mult150.o" "../mult150.cpp"
+In file included from ../mult150.cpp:1:
+In file included from ../mult150.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../mult150.cpp
+ 
+Building target: mult150
+Invoking: MacOS X C++ Linker
+g++  -o "mult150"  ./mult150.o ./mult150test.o   
+Finished building target: mult150
+ 
+13:09:22 **** Incremental Build of configuration Debug for project mult150 ****
+make all 
+Building file: ../mult150.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mult150.d" -MT"mult150.d" -o "mult150.o" "../mult150.cpp"
+In file included from ../mult150.cpp:1:
+In file included from ../mult150.h:1:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../mult150.cpp
+ 
+Building target: mult150
+Invoking: MacOS X C++ Linker
+g++  -o "mult150"  ./mult150.o ./mult150test.o   
+Finished building target: mult150
+ 
