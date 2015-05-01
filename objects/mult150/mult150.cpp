@@ -91,25 +91,35 @@ bool operator==(const mult150&c1, const char* c2){
 	return true;
 }
 /*
--------------------------------
+-----------------------------
+In mult150 constructor
 Number of Multiplications: 2
-Number of Additions: 2
+Number of Additions: 8
 95
--------------------------------
+-----------------------------
+In mult150 constructor
 Number of Multiplications: 4
-Number of Additions: 4
+Number of Additions: 12
 969
--------------------------------
+-----------------------------
+In mult150 constructor
 Number of Multiplications: 2500
-Number of Additions: 2500
+Number of Additions: 5100
 1522605027922533360535618378132637429718068114961380688657908494580122963258952897654000350692006139
--------------------------------
+-----------------------------
+In mult150 constructor
 Number of Multiplications: 3025
-Number of Additions: 3025
+Number of Additions: 6160
 35794234179725868774991807832568455403003778024228226193532908190484670252364677411513516111204504060317568667
--------------------------------
+-----------------------------
+In mult150 constructor
 Number of Multiplications: 4160
-Number of Additions: 4160
+Number of Additions: 8450
 114381625757888867669235779976146612010218296721242362562561842935706935245733897830597123563958705058989075147599290026879543541
-Run time   is 0.000312 secs
+In mult150 destructor
+In mult150 destructor
+In mult150 destructor
+In mult150 destructor
+In mult150 destructor
+Run time   is 0.000486 secs
 */
