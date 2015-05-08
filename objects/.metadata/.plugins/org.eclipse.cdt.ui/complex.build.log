@@ -1,6 +1,90 @@
-20:55:21 **** Incremental Build of configuration Debug for project complex ****
+14:08:11 **** Build of configuration Debug for project complex ****
 make all 
-make: Nothing to be done for `all'.
+Building file: ../complex.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"complex.d" -MT"complex.d" -o "complex.o" "../complex.cpp"
+In file included from ../complex.cpp:7:
+In file included from ../complex.h:8:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../complex.cpp
+ 
+Building file: ../complextest.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"complextest.d" -MT"complextest.d" -o "complextest.o" "../complextest.cpp"
+In file included from ../complextest.cpp:7:
+In file included from ../complex.h:8:
+../../util/util.h:53:29: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random(const Random& x) = delete;
+                            ^
+../../util/util.h:54:40: warning: deleted function definitions are a C++11 extension [-Wc++11-extensions]
+  Random& operator=(const Random& x) = delete;
+                                       ^
+../../util/util.h:48:14: warning: variable 'lower_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:12: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+           ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:33: note: initialize the variable 'lower_bound' to silence this warning
+    int upper_bound, lower_bound;
+                                ^
+                                 = 0
+../../util/util.h:48:14: warning: variable 'upper_bound' is used uninitialized whenever 'if' condition is false [-Wsometimes-uninitialized]
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+             ^~~~~~
+../../util/util.h:50:35: note: uninitialized use occurs here
+    return(lower_bound + rand() % upper_bound);
+                                  ^~~~~~~~~~~
+../../util/util.h:48:10: note: remove the 'if' if its condition is always true
+    else if (a >= b) { upper_bound = a - b; lower_bound = b; }
+         ^~~~~~~~~~~~
+../../util/util.h:46:20: note: initialize the variable 'upper_bound' to silence this warning
+    int upper_bound, lower_bound;
+                   ^
+                    = 0
+4 warnings generated.
+Finished building: ../complextest.cpp
+ 
+Building target: complex
+Invoking: MacOS X C++ Linker
+g++  -o "complex"  ./complex.o ./complextest.o   
+Finished building target: complex
+ 
 
-20:55:21 Build Finished (took 68ms)
+14:08:12 Build Finished (took 1s.365ms)
 

@@ -1,5 +1,5 @@
 #include "../util/util.h"
-#include "../darray/darray.h"
+#include "darray.h"
 
 class str{
 public:
@@ -19,6 +19,7 @@ public:
 	  friend str operator+(char a, const str& b);
 	  friend str operator+(const str& a, const str& b);
 	  friend int string_compare(const str& a, const str& b);
+	  int getsize(){return _size;}
 	  void reverse();
 
 

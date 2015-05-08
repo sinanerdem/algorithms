@@ -4,19 +4,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../str.cpp \
-../ulongnum.cpp \
-../ulongnumtest.cpp 
+../complex.cpp \
+../complextest.cpp 
 
 OBJS += \
-./str.o \
-./ulongnum.o \
-./ulongnumtest.o 
+./complex.o \
+./complextest.o 
 
 CPP_DEPS += \
-./str.d \
-./ulongnum.d \
-./ulongnumtest.d 
+./complex.d \
+./complextest.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

@@ -102,6 +102,7 @@ int string_compare(const str& a, const str& b){
 			else {return (a._myarray[i]>b._myarray[i]) ? 1 : -1;}
 		}
 	}
+	return 1;
 }
 /*----------------------------------------------------------------
 concatenation operators
